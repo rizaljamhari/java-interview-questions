@@ -3,8 +3,11 @@
 Which of the methods would you use to look up a element in a given map using a specified key.
 
 A) get() :heavy_check_mark:
+
 B) look()
+
 C) search()
+
 D) value()
 
 ---
@@ -28,12 +31,19 @@ public class Priorities {
 ```
 
 A) 3 bills dishes laundry null null
+
 B) 3 bills bills dishes laundry null
+
 C) 3 dishes dishes laundry bills null
+
 D) 4 bills bills dishes laundry null
+
 E) 4 bills bills bills dishes laundry :heavy_check_mark:
+
 F) 4 dishes laundry laundry bills bills
+
 G) Compilation fails.
+
 H) An exception is thrown at runtime.
 
 ---
@@ -56,8 +66,11 @@ public class Test{
 ```
 
 A) 1 2 3
+
 B) 4
+
 C) 1 2 3 4
+
 D) 4 Error :heavy_check_mark:
 
 ---
@@ -80,8 +93,11 @@ public static void main(String[] args) {
 ```
 
 A) Doesn’t matter what the values of i and j are, the output will always be 5 .
+
 B) Doesn’t matter what the values of k and j are, the output will always be 5 .
+
 C) Doesn’t matter what the values of i and j are, the output will always be 9 . :heavy_check_mark:
+
 D) Doesn’t matter what the values of k and j are, the output will always be 9 .
 
 ---
@@ -106,6 +122,9 @@ class Constructor
 ```
 
 A) In constructor
+
 B) null :heavy_check_mark:
+
 C) Compilation fails
+
 D) None of the above

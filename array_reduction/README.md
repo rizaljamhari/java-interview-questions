@@ -14,7 +14,9 @@ For example, consider the list `num = [4,6,8]`. Anna removes 4 and 6 in her firs
 Complete the function reductionCost. The function must return the minimum total cost of reducing the input list to one element.
 
 ##### Method Signature
-`int reductionCost(List<Integer> num);`
+```java
+int reductionCost(List<Integer> num);
+```
 
 ##### Constraints
 ```
@@ -24,19 +26,19 @@ Complete the function reductionCost. The function must return the minimum total 
 
 ##### Sample 0
 
-```
+```java
 int result = reductionCost(Arrays.asList(1, 2, 3));
 // result is 9
 ```
 ##### Explanation 0
 Anna makes the following moves to reduce the list num = [1, 2, 3]:
-
-Removes 1 and 2 at cost1 = 1 + 2 = 3, resulting in num1 = [3, 3].
-Removes 3 and 3 at cost2 = 3 + 3 = 6, resulting in num2 = [6].
-When we sum up the cost of each reduction, we get 3 + 6 = 9.
+* Removes 1 and 2 at cost1 = 1 + 2 = 3, resulting in num1 = [3, 3].
+* Removes 3 and 3 at cost2 = 3 + 3 = 6, resulting in num2 = [6].
+* When we sum up the cost of each reduction, we get 3 + 6 = 9.
 
 ##### Sample 1
-```
+
+```java
 int result = reductionCost(Arrays.asList(1, 2, 3, 4));
 // result is 19
 ```
@@ -44,8 +46,7 @@ int result = reductionCost(Arrays.asList(1, 2, 3, 4));
 ##### Explanation 1
 
 Anna makes the following moves to reduce the array num = [1, 2, 3, 4]:
-
-Removes 1 and 2 at cost1 = 1 + 2 = 3, resulting in num1 = [3, 4, 3].
-Removes 3 and 3 at cost2 = 3 + 3 = 6, resulting in num2 = [4, 6].
-Removes 4 and 6 at cost3 = 4 + 6 = 10, resulting in num3 = [10].
-When we sum up the cost of each reduction, we get 3 + 6 + 10 = 19.
+* Removes 1 and 2 at cost1 = 1 + 2 = 3, resulting in num1 = [3, 4, 3].
+* Removes 3 and 3 at cost2 = 3 + 3 = 6, resulting in num2 = [4, 6].
+* Removes 4 and 6 at cost3 = 4 + 6 = 10, resulting in num3 = [10].
+* When we sum up the cost of each reduction, we get 3 + 6 + 10 = 19.
